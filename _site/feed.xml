@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Donncha.xyz</title>
+    <description>A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff.</description>
+    <link>http://donncha.xyz/</link>
+    <atom:link href="http://donncha.xyz/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>I&#39;m loving Jekyll</title>
+        <description>&lt;p&gt;I’ve been working with Wordpress for years, and it is a truly remarkable package that solves all sorts of problems. Over the years, however, I’ve become frustrated with the workflow.  There is something  about the dashboard that just turns me off, and there is so much fun to be had at the command line. When it comes to writing content, I would rather take it offline, to a dedicated text editor like Byword, which I’m using right now, or Sublime Text. &lt;/p&gt;
+
+&lt;p&gt;I’m happy to report I think that Jeykll is exactly what I’ve been looking for. I like to see everything in a neat little folder, and I like the fact that I don’t have to deal with running database. As simple as that is, phpMyAdmin sure is uglier than OSX’s Finder.   &lt;/p&gt;
+</description>
+        <pubDate>Fri, 07 Aug 2015 00:00:00 +0100</pubDate>
+        <link>http://donncha.xyz/jekyll/wordpress/cms/2015/08/07/im-loving-jekyll/</link>
+        <guid isPermaLink="true">http://donncha.xyz/jekyll/wordpress/cms/2015/08/07/im-loving-jekyll/</guid>
+      </item>
+    
+  </channel>
+</rss>
