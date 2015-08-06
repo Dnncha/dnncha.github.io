@@ -10,11 +10,24 @@
         <title>I&#39;m loving Jekyll</title>
         <description>&lt;p&gt;I’ve been working with Wordpress for years, and it is a truly remarkable package that solves all sorts of problems. Over the years, however, I’ve become frustrated with the workflow.  There is something  about the dashboard that just turns me off, and there is so much fun to be had at the command line. When it comes to writing content, I would rather take it offline, to a dedicated text editor like Byword, which I’m using right now, or Sublime Text. &lt;/p&gt;
 
-&lt;p&gt;I’m happy to report I think that Jeykll is exactly what I’ve been looking for. I like to see everything in a neat little folder, and I like the fact that I don’t have to deal with running database. As simple as that is, phpMyAdmin sure is uglier than OSX’s Finder.   &lt;/p&gt;
+&lt;p&gt;I’m happy to report I think that &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jeykll&lt;/a&gt; is exactly what I’ve been looking for. I like to see everything in a neat little folder, and I like the fact that I don’t have to deal with running database. As simple as that is, phpMyAdmin sure is uglier than OSX’s Finder.   &lt;/p&gt;
 
-&lt;h2 id=&quot;jekyll-running-on-github-pages-is-pretty-damn-fast&quot;&gt;Jekyll running on GitHub pages is pretty damn fast.&lt;/h2&gt;
+&lt;h2 id=&quot;its-easy-to-get-set-up&quot;&gt;It’s easy to get set up&lt;/h2&gt;
+
+&lt;p&gt;It doesn’t take long to get Jekyll set up on GitHub Pages, although I guess it might be a little more confusing if you’re not familiar with the command line. However, if you’ve used Git before, you can get a site up and running in no time.&lt;/p&gt;
+
+&lt;p&gt;Smashing Magazine has &lt;a href=&quot;http://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/&quot;&gt;a nice tutorial to get you get Jekyll set up on Github pages.&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;static-sites-are-performant&quot;&gt;Static sites are performant.&lt;/h2&gt;
+&lt;p&gt;Thanks to Github’s great infrastructure, and the fact that Jekyll doesn’t need to query a database, this site loads up very quickly indeed. If I was running Wordpress on a typical shared host, like &lt;a href=&quot;www.blacknight.com&quot;&gt;Blacknight&lt;/a&gt; or &lt;a href=&quot;www.bluehost.com&quot;&gt;Bluehost&lt;/a&gt;, I’d have to do a bit of work to get anywhere near a 300ms page load.  &lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://donncha.xyz/images/jekyll_plus_github_pages_equals_fast.png&quot; alt=&quot;Jekyll Speed Test&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;markdown-is-great&quot;&gt;Markdown is great&lt;/h2&gt;
+
+&lt;p&gt;Markdown is my preferred method of writing for the web. If you’ve never heard of it, you can have a look at this &lt;a href=&quot;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&quot;&gt;handy markdown cheatsheet&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I’m writing this post in &lt;a href=&quot;www.byword.com&quot;&gt;Byword&lt;/a&gt;, but you could also write your blog in &lt;a href=&quot;www.sublimetext.com&quot;&gt;Sublime Text&lt;/a&gt;, TextEdit or even &lt;a href=&quot;http://agiletortoise.com/drafts/&quot;&gt;Drafts for iOS&lt;/a&gt;. All of them are preferable to the wordpress dashboard editor, in my opinion. &lt;/p&gt;
 </description>
         <pubDate>Fri, 07 Aug 2015 00:00:00 +0100</pubDate>
         <link>http://donncha.xyz/jekyll/wordpress/cms/2015/08/07/im-loving-jekyll/</link>
