@@ -7,14 +7,15 @@
     <atom:link href="http://donncha.xyz/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>I&#39;m loving Jekyll</title>
+        <title>Jekyll vs Wordpress</title>
         <description>&lt;p&gt;I’ve been working with Wordpress for years, and it is a truly remarkable package that solves all sorts of problems. Over the years, however, I’ve become frustrated with the workflow.  There is something  about the dashboard that just turns me off, and there is so much fun to be had at the command line. When it comes to writing content, I would rather take it offline, to a dedicated text editor like Byword, which I’m using right now, or Sublime Text. &lt;/p&gt;
 
-&lt;p&gt;I’m happy to report I think that &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jeykll&lt;/a&gt; is exactly what I’ve been looking for. I like to see everything in a neat little folder, and I like the fact that I don’t have to deal with running a database. As simple as that is, phpMyAdmin is still uglier than files in Finder.   &lt;/p&gt;
+&lt;p&gt;I’m happy to report that &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jeykll&lt;/a&gt; is exactly what I’ve been looking for. Its nice keeping the entire blog a neat little folder, Jekyll doesn’t need a database to store your blog posts, it stores them as text files in a folder.  &lt;/p&gt;
 
 &lt;h2 id=&quot;its-easy-to-get-set-up&quot;&gt;It’s easy to get set up&lt;/h2&gt;
 
-&lt;p&gt;It doesn’t take long to get Jekyll set up on GitHub Pages, although I guess it might be a little more confusing if you’re not familiar with the command line. However, if you’ve used Git before, you can get a site up and running in no time. &lt;/p&gt;
+&lt;p&gt;It doesn’t take long to get Jekyll set up on GitHub Pages, although I guess it might be a confusing  process if you’re not familiar with the command line. 
+If you’ve used Git before, you can get a site up and running on Github Pages in no time. &lt;/p&gt;
 
 &lt;p&gt;Smashing Magazine has &lt;a href=&quot;http://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/&quot;&gt;a nice tutorial to get you get Jekyll set up on Github pages.&lt;/a&gt;.&lt;/p&gt;
 
@@ -30,10 +31,30 @@
 &lt;p&gt;Markdown is my preferred method of writing for the web. If you’ve never heard of it, you can have a look at this &lt;a href=&quot;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&quot;&gt;handy markdown cheatsheet&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;I’m writing this post in &lt;a href=&quot;www.byword.com&quot;&gt;Byword&lt;/a&gt;, but you could also write your blog in &lt;a href=&quot;www.sublimetext.com&quot;&gt;Sublime Text&lt;/a&gt;, TextEdit or even &lt;a href=&quot;http://agiletortoise.com/drafts/&quot;&gt;Drafts for iOS&lt;/a&gt;. &lt;/p&gt;
+
+&lt;h2 id=&quot;seo-in-jekyll&quot;&gt;SEO in Jekyll&lt;/h2&gt;
+
+&lt;p&gt;Wordpress has Yoast, what does Jekyll have to offer to help you jostle for position in Google? &lt;/p&gt;
+
+&lt;h3 id=&quot;front-matter&quot;&gt;Front Matter&lt;/h3&gt;
+&lt;p&gt;Front Matter lets you easily rewrite your title and meta description at the top of your article. &lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;l-Scalar-Plain&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;      &lt;span class=&quot;l-Scalar-Plain&quot;&gt;Jekyll vs Wordpress&lt;/span&gt;
+&lt;span class=&quot;l-Scalar-Plain&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;       &lt;span class=&quot;l-Scalar-Plain&quot;&gt;2015-08-06 23:00:00&lt;/span&gt;
+&lt;span class=&quot;l-Scalar-Plain&quot;&gt;permalink&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;/jekyll-vs-wordpress&lt;/span&gt;
+&lt;span class=&quot;l-Scalar-Plain&quot;&gt;summary&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;    &lt;span class=&quot;l-Scalar-Plain&quot;&gt;If you&amp;#39;ve grown tired of blogging in Wordpress, there&amp;#39;s always Jekyll.&lt;/span&gt;
+&lt;span class=&quot;l-Scalar-Plain&quot;&gt;categories&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;jekyll wordpress blogging cms&lt;/span&gt;
+&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;If you don’t specify a meta description, Jekyll will fall back to your site’s default. I think that this is a much more graceful solution than running a hefty SEO plugin for Wordpress that runs ads in your dashboard. &lt;/p&gt;
+
+&lt;h3 id=&quot;but-isnt-yoast-more-powerful-than-that&quot;&gt;“But isn’t Yoast more powerful than that?”&lt;/h3&gt;
+&lt;p&gt;Well, Yoast has that content analysis feature - it asks you to specify a keyword and then advises you to plaster it all over the place. It also generates sitemaps, which is good, but &lt;a href=&quot;https://help.github.com/articles/sitemaps-for-github-pages/&quot;&gt;Jekyll can do that too&lt;/a&gt;. With SEO, I’ve decided to take Matt Cutts’ advice and forget about nitty gritty SEO tricks and focus on content. Yoast is a great WP extension, it’s easy to use and it gets you thinking about keywords. On the other hand, if Google uses, say, 200 factors when it ranks a webpage, how big of an SEO boost does Yoast style optimistation really give you? Is the modern googlebot really convinced by seeing the same phrase in the description and the title? Surely it’s more interested in bounce rates, the amount of time the user stays on the site etc. Those metrics are harder for webmasters to interfere with, and webmasters can’t be trusted not to vote for themselves.&lt;/p&gt;
 </description>
         <pubDate>Fri, 07 Aug 2015 00:00:00 +0100</pubDate>
-        <link>http://donncha.xyz/jekyll/wordpress/cms/2015/08/07/im-loving-jekyll/</link>
-        <guid isPermaLink="true">http://donncha.xyz/jekyll/wordpress/cms/2015/08/07/im-loving-jekyll/</guid>
+        <link>http://donncha.xyz/jekyll-vs-wordpress</link>
+        <guid isPermaLink="true">http://donncha.xyz/jekyll-vs-wordpress</guid>
       </item>
     
   </channel>

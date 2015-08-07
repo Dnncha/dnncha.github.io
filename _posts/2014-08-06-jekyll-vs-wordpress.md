@@ -1,0 +1,54 @@
+---
+layout:     post
+title:      Jekyll vs Wordpress
+date:       2015-08-06 23:00:00
+permalink: /jekyll-vs-wordpress
+summary:    If you've grown tired of blogging in Wordpress, there's always Jekyll.
+categories: jekyll wordpress blogging cms
+---
+
+I've been working with Wordpress for years, and it is a truly remarkable package that solves all sorts of problems. Over the years, however, I've become frustrated with the workflow.  There is something  about the dashboard that just turns me off, and there is so much fun to be had at the command line. When it comes to writing content, I would rather take it offline, to a dedicated text editor like Byword, which I'm using right now, or Sublime Text. 
+
+I'm happy to report that [Jeykll](http://jekyllrb.com/) is exactly what I've been looking for. Its nice keeping the entire blog a neat little folder, Jekyll doesn't need a database to store your blog posts, it stores them as text files in a folder.  
+
+##It's easy to get set up
+
+It doesn't take long to get Jekyll set up on GitHub Pages, although I guess it might be a confusing  process if you're not familiar with the command line. 
+If you've used Git before, you can get a site up and running on Github Pages in no time. 
+
+Smashing Magazine has [a nice tutorial to get you get Jekyll set up on Github pages.](http://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/).
+
+After you've got that stuff set up, simply grab a theme from [Jekyll themes](http://jekyllthemes.org/) and you're off to the races. 
+
+##Static sites are performant.
+Thanks to Github's great infrastructure, and the fact that Jekyll doesn't need to query a database, this site loads up very quickly indeed. If I was running Wordpress on a typical shared host, like [Blacknight](www.blacknight.com) or [Bluehost](www.bluehost.com), I'd have to do a bit of work to get anywhere near a 300ms page load.  
+
+![Jekyll Speed Test]({{ site.url }}/images/jekyll_plus_github_pages_equals_fast.png)
+
+##Markdown is great
+
+Markdown is my preferred method of writing for the web. If you've never heard of it, you can have a look at this [handy markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+
+I'm writing this post in [Byword](www.byword.com), but you could also write your blog in [Sublime Text](www.sublimetext.com), TextEdit or even [Drafts for iOS](http://agiletortoise.com/drafts/). 
+
+##SEO in Jekyll
+
+Wordpress has Yoast, what does Jekyll have to offer to help you jostle for position in Google? 
+
+###Front Matter
+Front Matter lets you easily rewrite your title and meta description at the top of your article. 
+
+{% highlight yaml %}
+---
+title:      Jekyll vs Wordpress
+date:       2015-08-06 23:00:00
+permalink:  /jekyll-vs-wordpress
+summary:    If you've grown tired of blogging in Wordpress, there's always Jekyll.
+categories: jekyll wordpress blogging cms
+---
+{% endhighlight %}
+
+If you don't specify a meta description, Jekyll will fall back to your site's default. I think that this is a much more graceful solution than running a hefty SEO plugin for Wordpress that runs ads in your dashboard. 
+
+###"But isn't Yoast more powerful than that?"
+Well, Yoast has that content analysis feature - it asks you to specify a keyword and then advises you to plaster it all over the place. It also generates sitemaps, which is good, but [Jekyll can do that too](https://help.github.com/articles/sitemaps-for-github-pages/). With SEO, I've decided to take Matt Cutts' advice and forget about nitty gritty SEO tricks and focus on content. Yoast is a great WP extension, it's easy to use and it gets you thinking about keywords. On the other hand, if Google uses, say, 200 factors when it ranks a webpage, how big of an SEO boost does Yoast style optimistation really give you? Is the modern googlebot really convinced by seeing the same phrase in the description and the title? Surely it's more interested in bounce rates, the amount of time the user stays on the site etc. Those metrics are harder for webmasters to interfere with, and webmasters can't be trusted not to vote for themselves.
