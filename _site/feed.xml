@@ -37,7 +37,7 @@ If you’ve used Git before, you can get a site up and running on Github Pages i
 &lt;p&gt;Wordpress has Yoast, what does Jekyll have to offer to help you jostle for position in Google? &lt;/p&gt;
 
 &lt;h3 id=&quot;front-matter&quot;&gt;Front Matter&lt;/h3&gt;
-&lt;p&gt;Front Matter lets you easily rewrite your title and meta description at the top of your article. &lt;/p&gt;
+&lt;p&gt;Front Matter lets you easily rewrite your title and meta description, right at the top of your article, in plain text. &lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
 &lt;span class=&quot;l-Scalar-Plain&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;      &lt;span class=&quot;l-Scalar-Plain&quot;&gt;Jekyll vs Wordpress&lt;/span&gt;

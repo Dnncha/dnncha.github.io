@@ -36,7 +36,7 @@ I'm writing this post in [Byword](www.byword.com), but you could also write your
 Wordpress has Yoast, what does Jekyll have to offer to help you jostle for position in Google? 
 
 ###Front Matter
-Front Matter lets you easily rewrite your title and meta description at the top of your article. 
+Front Matter lets you easily rewrite your title and meta description, right at the top of your article, in plain text. 
 
 {% highlight yaml %}
 ---
