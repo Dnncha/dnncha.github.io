@@ -7,9 +7,9 @@ summary:    If you've grown tired of blogging in Wordpress, there's always Jekyl
 categories: jekyll wordpress blogging cms
 ---
 
-I've been working with Wordpress for years, and it is a truly remarkable package that solves all sorts of problems. Over the years, however, I've become frustrated with the workflow.  There is something  about the dashboard that just turns me off, and there is so much fun to be had at the command line. When it comes to writing content, I would rather take it offline, to a dedicated text editor like Byword, which I'm using right now, or Sublime Text. 
+I've been working with Wordpress for years, and it is a truly remarkable package that solves all sorts of problems. However, over the years, I've become frustrated with the workflow.  I was looking for a blog that I could develop and write locally, and then push up it the server by easily hitting a switch. Ideally I'd write some Markdown in Byword, and then have it automatically converted and pushed to the server, 
 
-I'm happy to report that [Jeykll](http://jekyllrb.com/) is exactly what I've been looking for. Its nice keeping the entire blog a neat little folder, Jekyll doesn't need a database to store your blog posts, it stores them as text files in a folder.  
+So what I was looking for, it turns out, was [Jeykll](http://jekyllrb.com/). It is a static site generator and it keeps your entire blog in a neat little folder, in text files. It doesn't use a database. 
 
 ##It's easy to get set up
 
