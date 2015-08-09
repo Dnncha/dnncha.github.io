@@ -7,7 +7,7 @@ summary:    If you've grown tired of blogging in Wordpress, there's always Jekyl
 categories: jekyll wordpress blogging cms
 ---
 
-Wordpress is is a truly remarkable package that solves all sorts of problems. It's an all in one publishing system that I can barely believe is free. However, over the years, I've become frustrated with my workflow with it. The network lag while clicking through the dashboard often gets on my nerves when I've had a few coffees. I decided I wanted a blog that I could develop and write locally, and had a one button push up to the server. Ideally I'd write some Markdown in Byword, and then have it automatically converted and pushed to the server, 
+Wordpress is is a truly remarkable package that solves all sorts of problems. It's an all in one publishing system that I can barely believe is free. However, over the years, I've become frustrated with my workflow with it. The network lag while clicking through the dashboard often gets on my nerves when I've had a few coffees. I decided I wanted a blog that I could develop and write locally, and had a one button push up to the server. Ideally I'd write some Markdown in Byword, and then have it automatically converted and pushed to the server.
 
 So what I was looking for, it turns out, was [Jeykll](http://jekyllrb.com/), running on Github pages. It is a static site generator and it keeps your entire blog in a neat little folder, in text files.
 
@@ -51,6 +51,8 @@ categories: jekyll wordpress blogging cms
 If you don't specify a meta description, Jekyll will fall back to your site's default. I think that this is a much more graceful solution than running a hefty SEO plugin for Wordpress that runs ads in your dashboard. 
 
 ###"But isn't Yoast more powerful than that?"
-Well, Yoast has that content analysis feature - it asks you to specify a keyword and then advises you to plaster it all over the place. It also generates sitemaps, which is good, but [Jekyll can do that too](https://help.github.com/articles/sitemaps-for-github-pages/). 
+Yoast generates sitemaps, which is good, but [Jekyll can do that too](https://help.github.com/articles/sitemaps-for-github-pages/).  It lets you rewrite page titles and meta descriptions, but you can do that with Front Matter. 
 
-With SEO, I've decided to take Matt Cutts' advice and forget about nitty gritty SEO tricks and focus on content. Yoast is a great WP extension, it's easy to use and it gets you thinking about keywords. On the other hand, if Google uses, say, 200 factors when it ranks a webpage, how big of an SEO boost does Yoast style optimistation really give you? Is the modern googlebot really convinced by seeing the same phrase in the description and the title? Surely it's more interested in bounce rates, the amount of time the user stays on the site etc. Those metrics are harder for webmasters to interfere with, and webmasters can't be trusted not to vote for themselves.
+Yoast does have that fancy content analysis feature - it asks you to specify a keyword and then advises you to plaster it all over the place in your title, in your description etc. 
+
+With SEO, I've decided to take Matt Cutts' advice and forget about nitty gritty SEO tricks and focus on content. If Google uses, say, 200 factors when it ranks a webpage, how big of an SEO boost does Yoast style keyword stuffing really give you? Is the modern googlebot really convinced by seeing the same phrase in the description and the title? *Perhaps* it's more interested in bounce rates and the amount of time the user stays on the site. Those metrics are harder for webmasters to interfere with, and webmasters can't be trusted not to vote for themselves.
