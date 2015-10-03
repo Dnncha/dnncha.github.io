@@ -7,6 +7,46 @@
     <atom:link href="http://donncha.xyz/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Where can I find Wordpress themes?</title>
+        <description>&lt;p&gt;You can get Wordpress themes for free, or you can invest in a higher quality, premium theme. The premium themes tend to be a little bit easier to work with, with more customisation options in the dashboard, and they often offer after sale support.  &lt;/p&gt;
+
+&lt;h2 id=&quot;where-can-i-find-themes-for-free&quot;&gt;Where can I find themes for &lt;em&gt;free&lt;/em&gt;?&lt;/h2&gt;
+
+&lt;p&gt;To grab some free themes, head over to &lt;a href=&quot;http://wordpress.org/themes/&quot;&gt;The official Wordpress.org theme directory&lt;/a&gt;.  It’s probably the largest collection of free themes and it is well curated. &lt;/p&gt;
+
+&lt;p&gt;Ideally you want to find a theme that mentions responsive design, so that your site loads up properly on mobile devices. There are loads of these available, so that shouldn’t be too difficult. &lt;/p&gt;
+
+&lt;h2 id=&quot;where-can-i-buy-a-theme&quot;&gt;Where can I &lt;em&gt;buy&lt;/em&gt; a theme?&lt;/h2&gt;
+
+&lt;h3 id=&quot;wordpress-theme-marketplaces&quot;&gt;Wordpress Theme Marketplaces&lt;/h3&gt;
+
+&lt;p&gt;There are huge marketplaces for premium Wordpress themes, here are some of the big ones:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;www.themeforest.com&quot;&gt;Themeforest&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Themeforest is normally the first marketplace I mention to friends when they are looking for themes. They have a ton of themes and it is easy to preview each theme and look at reviews from customers. Everything in the &lt;a href=&quot;http://themeforest.net/feature&quot;&gt;featured section&lt;/a&gt; is usually rock solid and easy to work with.   Themes here cost roughly from $10 to $80&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.mojo-themes.com/&quot;&gt;Mojo Themes&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Mojo Themes is very similar to Themeforest, it’s another theme marketplace. The word on the street (I mean internet) is that it’s harder to get themes accepted to Themeforest than Mojo Themes. &lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;www.woothemes.com&quot;&gt;WooThemes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://thethemefoundry.com&quot;&gt;The Theme Foundry&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.elegantthemes.com/&quot;&gt;Elegant Themes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://graphpaperpress.com/&quot;&gt;Graph Paper Press&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.obox-design.com/&quot;&gt;Obox Themes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://okaythemes.com/&quot;&gt;Okay Themes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.organicthemes.com/&quot;&gt;Organic Themes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://press75.com/&quot;&gt;Press75&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 10 Aug 2015 00:00:00 +0100</pubDate>
+        <link>http://donncha.xyz/where-can-i-find-wordpress-themes</link>
+        <guid isPermaLink="true">http://donncha.xyz/where-can-i-find-wordpress-themes</guid>
+      </item>
+    
+      <item>
         <title>Jekyll vs Wordpress</title>
         <description>&lt;p&gt;Wordpress is is a truly remarkable package that solves all sorts of problems. It’s an all in one publishing system that I can barely believe is free. However, over the years, I’ve become frustrated with my workflow with it. The network lag while clicking through the dashboard often gets on my nerves when I’ve had a few coffees. I decided I wanted a blog that I could develop and write locally, and had a one button push up to the server. Ideally I’d write some Markdown in Byword, and then have it automatically converted and pushed to the server.&lt;/p&gt;
 
