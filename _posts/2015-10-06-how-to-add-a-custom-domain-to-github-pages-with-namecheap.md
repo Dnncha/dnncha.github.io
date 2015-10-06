@@ -3,7 +3,7 @@ layout: post
 title: "How to add a custom domain to GitHub Pages with Namecheap"
 date: 2015-10-06 19:31:36
 image: '/assets/img/'
-description: "Adding a domain to Github pages with a domain you picked up from Namecheap is pretty straightforward. "
+description: "I've written up the steps for Namecheap users, in case you've found yourself scratching your head at the new DNS configuation page. "
 tags: 
 - github pages
 - jekyll
@@ -11,8 +11,6 @@ tags:
 categories:
 twitter_text: 'How to add a custom domain to Github Pages with Namecheap'
 ---
-
-Adding a custom domain to Github Pages is pretty straightforward, but not particularly well covered in the documentation. I've written up the steps for Namecheap users, in case you've found yourself scratching your head at the new DNS configuation page. 
 
 Once you've bought your domain, log in to your Namecheap dashboard, where you'll find a list of all your domains. Click *manage* on the domain you're assigning to GithubPages, and then click the *Advanced DNS* tab.
 
