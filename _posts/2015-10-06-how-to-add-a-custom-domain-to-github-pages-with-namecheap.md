@@ -22,6 +22,8 @@ Next, we'll add a CNAME record, with **Host** set to **yoursite.github.io**
 
 After that, you'll want to switch off the preexisting URL Record, with the type *URL redirect*. If you don't switch this off, you may find that Chrome throws a *Too many redirects* error, whereas Safari doesn't seem to care.
 
+In your Repo, add a file called CNAME, and insert your new domain name in there, without the www, so it looks like this: **yoursite.com**
+
 Enjoy, and please do me know how you get on!
 
 
