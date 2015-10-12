@@ -18,7 +18,7 @@ Now click on *Manage* your *Host Records* to add some DNS records.
 
 We're going to add two A records, with *Host* set to @. The first one should point at **192.30.252.153**, and the second A record should point to **192.30.252.154**
 
-Next, we'll add a CNAME record, with **Host** set to **yoursite.github.io**
+Next, we'll add a CNAME record, with a *www* **Host** set to **yoursite.github.io**
 
 After that, you'll want to switch off the preexisting URL Record, with the type *URL redirect*. If you don't switch this off, you may find that Chrome throws a *Too many redirects* error, whereas Safari doesn't seem to care.
 
