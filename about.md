@@ -4,4 +4,4 @@ title: About Donncha
 permalink: /about/
 ---
 
-Hi, I'm Donncha and I'm the founder of [Focalise](http://focalise.ie) 
+Hi, I'm Donncha and I'm the founder of [Focalise](http://focalise.ie).

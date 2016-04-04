@@ -1,2 +1,6 @@
 - name: Slack
   link: http://www.slack.com
+  description: A great team communication platform.
+- name: Trello
+  link: http://www.trello.com
+  description: Great for managing projects, collaboration and brainstroming. 

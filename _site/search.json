@@ -1,0 +1,35 @@
+[
+  
+    {
+      "title"    : "How to remove the Bitnami banner on WordPress on Google Cloud",
+      "category" : "",
+      "tags"     : "google cloud, wordpress, and bitnami",
+      "url"      : "/remove-the-bitnami-banner-on-google-cloud/",
+      "date"     : "10 Dec 2015"
+    } ,
+  
+    {
+      "title"    : "How to add a custom domain to GitHub Pages with Namecheap",
+      "category" : "",
+      "tags"     : "github pages, jekyll, and namecheap",
+      "url"      : "/how-to-add-a-custom-domain-to-github-pages-with-namecheap/",
+      "date"     : "06 Oct 2015"
+    } ,
+  
+    {
+      "title"    : "Where can I find Wordpress themes?",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/where-can-i-find-wordpress-themes",
+      "date"     : "10 Aug 2015"
+    } ,
+  
+    {
+      "title"    : "Jekyll vs Wordpress",
+      "category" : "jekyllwordpressbloggingcms",
+      "tags"     : "",
+      "url"      : "/jekyll-vs-wordpress",
+      "date"     : "07 Aug 2015"
+    } 
+  
+]

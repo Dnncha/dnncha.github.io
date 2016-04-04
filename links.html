@@ -1,0 +1,16 @@
+---
+layout: page
+title: Links
+permalink: /links/index.html
+---
+
+
+
+{% for link in site.data.links %}
+
+<div class="link">
+<a href="{{ link.link }}">{{ link.name }}</a> - {{ link.description }}
+	
+</div>
+
+{% endfor %}

@@ -7,7 +7,7 @@ url: "http://donncha.xyz" # the base hostname & protocol for your site
 username: Donncha O'Toole
 user_description: Founder at Focalise
 user_title: Web Developer
-email: donncha@focalisesoftware.com
+email: donncha@focalise.ie
 twitter_username: focaliseweb
 github_username:  dnncha
 gplus_username:  DonnchaOToole
@@ -31,8 +31,8 @@ compress_html:
 links:
   - title: Home
     url: /
-  - title: Series
-    url: /series
+  - title: Links
+    url: /links
   - title: Tags
     url: /tags
   - title: About Me

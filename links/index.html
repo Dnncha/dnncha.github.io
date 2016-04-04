@@ -1,0 +1,15 @@
+
+---
+layout: page
+title: Links
+permalink: /links/
+---
+
+
+{% include footer.html %}
+
+{% for link in site.links %}
+
+<a href="{{ link.link }}" class="">{{ link.name }}</a>link
+
+{% endfor %}
